@@ -1,7 +1,8 @@
 import React from "react";
+import matchData from "../data/matchData";
 import Match from "./Match";
 
-function MatchList() {
+function MatchList(props) {
   return (
     <section>
       <h1>Current Match List</h1>
